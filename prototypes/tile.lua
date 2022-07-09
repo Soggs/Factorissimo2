@@ -1,5 +1,6 @@
 local F = "__Factorissimo2__"
 
+
 alien_biomes_priority_tiles = alien_biomes_priority_tiles or {}
 
 local function make_tile(tinfo)
@@ -71,7 +72,8 @@ end
 
 local function floor_mask()
 	return {
-		"ground-tile"
+		"ground-tile",
+		solar_panel_collision_layer
 	}
 end
 
